@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #283136;
+    background-color: #fff;
+}
+
+.btn {
+    font: inherit;
+    color: #fff;
+    background-color:  #fb5559;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+}
+
+.main-header {
+    background-color: #eeeeee;
+}
+
+.main-navigation {
+    line-height: 1.2;
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.basket,
+.site-navigation {
+    list-style: none;
+}
+
+.main-navigation a,
+.site-navigation a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.services-list {
+    list-style: none;
+}
+
+.services-item h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.services-item:nth-child(1) .btn {
+    background-color: #fb5559;
+}
+
+.services-item:nth-child(2) .btn {
+    background-color: #00cb74;
+}
+
+.services-item:nth-child(3) .btn {
+    background-color: #f0c948;
+}
+
+.about-slogan b {
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.about-caption b {
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-list {
+    list-style: none;
+}
+
+.about-table {
+    line-height: 18px;
+}
+
+.about-table b {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.map {
+    background-image: url("#");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.map-contacts {
+    background-color: #fff;
+}
+
+.map-contacts h3 {
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.map-contacts p {
+    line-height: 18px;
+}
+
+.footer-social {
+    list-style: none;
+}
+
+.offer p {
+    line-height: 22px;
+}
+
+.offer b {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+/* Модальное окно */
+
+.modal-form b {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.modal-form label {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.modal-form input[type="text"],
+.modal-form input[type="email"],
+textarea {
+    font: inherit;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+/* Внутренние страницы */
+
+.btn-inner {
+    color: #000000;
+    background-color: #efefef;
+}
+
+.main-title {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.catalog-form fieldset {
+    border: none;
+}
+
+.catalog-form legend {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.catalog-form label {
+    line-height: 20px;
+}
+
+.sorting p {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sorting ul {
+    list-style: none;
+}
+
