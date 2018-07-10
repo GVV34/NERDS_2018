@@ -20,6 +20,14 @@ body {
     border: none;
 }
 
+.btn:hover {
+    background-color: #e84044;
+}
+
+.btn:active {
+    background-color: #d83438;
+}
+
 .main-header {
     background-color: #eeeeee;
 }
@@ -42,6 +50,17 @@ body {
     color: #000000;
 }
 
+.basket a[href]:hover,
+.site-navigation a[href]:hover {
+    color: #fb565a;
+}
+
+.basket a[href]:active,
+.site-navigation a[href]:active {
+    color: #000000;
+    opacity: 0.3;                          /*Уточнить*/
+}
+
 .services-list {
     list-style: none;
 }
@@ -56,12 +75,36 @@ body {
     background-color: #fb5559;
 }
 
+.services-item:nth-child(1) .btn:hover {
+    background-color: #e84044;
+}
+
+.services-item:nth-child(1) .btn:active {
+    background-color: #d83438;
+}
+
 .services-item:nth-child(2) .btn {
     background-color: #00cb74;
 }
 
+.services-item:nth-child(2) .btn:hover {
+    background-color: #00be6c;
+}
+
+.services-item:nth-child(2) .btn:active {
+    background-color: #00ab62;
+}
+
 .services-item:nth-child(3) .btn {
     background-color: #f0c948;
+}
+
+.services-item:nth-child(3) .btn:hover {
+    background-color: #ebb731;
+}
+
+.services-item:nth-child(3) .btn:active {
+    background-color: #e6a81d;
 }
 
 .about-slogan b {
