@@ -134,6 +134,10 @@ body {
     color: #000000;
 }
 
+.partners-list {
+  list-style: none;
+}
+
 .map {
     background-image: url("#");
     background-position: 0 0;
@@ -227,3 +231,10 @@ textarea {
     list-style: none;
 }
 
+.portfolio-pagination {
+  list-style: none;
+}
+
+.portfolio-pagination a {
+  text-decoration: none;
+}
